@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docs Page</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="components">
+    <!-- <nav class="sticky--nav">
+      <h3 class="nav--hero">SimCom</h3>
+      <ul class="nav--list">
+        <li class="nav--items"><a href="#home">home</a></li>
+        <li class="nav--items"><a href="/pages/components.html">docs</a></li>
+        <li class="nav--items"><a href="#connect">about</a></li>
+      </ul>
+    </nav> -->
+
+    <div class="doc--container">
+      <aside class="doc--name">
+        <div class="aside--header">
+          <h3 class="doc--hero"><a href="/index.html"> SimCom</a></h3>
+          <button class="show--hide"><i class="fa fa-bars"></i></button>
+        </div>
+        <ul class="doc--name--list">
+          <li class="doc--name--list--item">
+            <a href="#doc--description--alert">alerts</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--section">sections</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--avatars">avatars</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--badges">badges</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--buttons">buttons</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--cards">cards</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--images">responsive images</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--inputs">inputs</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--lists">lists</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--navbar">navbar</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--rating">rating</a>
+          </li>
+          <li class="doc--name--list--item">
+            <a href="#doc--description--utility">utility</a>
+          </li>
+        </ul>
+      </aside>
+      <article class="docs--decription">
+        <section id="doc--description--alert" class="doc--description--alert">
+          <div class="alert primary--alert">
+            <p>this is primary alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert secondary--alert">
+            <p>this is secondary alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert success--alert">
+            <p>this is success alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert danger--alert">
+            <p>this is danger alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert info--alert">
+            <p>this is info alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert light--alert">
+            <p>this is light alert</p>
+            <button class="alert--button">X</button>
+          </div>
+          <div class="alert dark--alert">
+            <p>this is dark alert</p>
+            <button class="alert--button">X</button>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520primary%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520secondary--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520secondary%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520success%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520danger--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520danger%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520info%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520light--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520light%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520dark--alert%2522%253E%250A%2520%2520%253Cp%253Ethis%2520is%2520dark%2520alert%253C%252Fp%253E%250A%2520%2520%253Cbutton%2520class%253D%2522alert--button%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 707px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section
+          id="doc--description--section"
+          class="doc--description--section"
+        >
+          <section class="primary--section text--color__primary">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+              ipsam impedit nemo dignissimos quisquam quia labore rem. Nobis
+              sint aut non illo doloribus tempora aperiam odit labore? Quae,
+              dignissimos id.
+            </p>
+          </section>
+          <section class="alternate--section text--color__secondary">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+              ipsam impedit nemo dignissimos quisquam quia labore rem. Nobis
+              sint aut non illo doloribus tempora aperiam odit labore? Quae,
+              dignissimos id.
+            </p>
+          </section>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522primary--section%2520text--color__primary%2522%253E%250A%2509%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ipsam%2520impedit%2520nemo%2520dignissimos%2520quisquam%2520quia%2520labore%2520rem.%2520Nobis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sint%2520aut%2520non%2520illo%2520doloribus%2520tempora%2520aperiam%2520odit%2520labore%253F%2520Quae%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dignissimos%2520id.%250A%2509%253C%252Fp%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522alternate--section%2520text--color__secondary%2522%253E%250A%2509%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ipsam%2520impedit%2520nemo%2520dignissimos%2520quisquam%2520quia%2520labore%2520rem.%2520Nobis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sint%2520aut%2520non%2520illo%2520doloribus%2520tempora%2520aperiam%2520odit%2520labore%253F%2520Quae%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dignissimos%2520id.%250A%2509%253C%252Fp%253E%250A%253C%252Fsection%253E"
+            style="
+              width: 100%;
+              height: 484px;
+              border: 0;
+              transform: scale(1);
+              overflow: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section
+          id="doc--description--avatars"
+          class="doc--description--avatars"
+        >
+          <figure>
+            <img
+              class="avatar avatar--small"
+              src="https://thispersondoesnotexist.com/image"
+            />
+            <img
+              class="avatar avatar--medium"
+              src="https://thispersondoesnotexist.com/image"
+            />
+            <img
+              class="avatar avatar--large"
+              src="https://thispersondoesnotexist.com/image"
+            />
+            <div class="avatar--badge--container">
+              <img
+                class="avatar avatar--small"
+                src="https://thispersondoesnotexist.com/image"
+              />
+              <span class="avatar--badge"></span>
+            </div>
+          </figure>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cfigure%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--small%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--medium%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--large%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%253Cdiv%2520class%253D%2522avatar--badge--container%2522%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar--small%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2509%253Cspan%2520class%253D%2522avatar--badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253C%252Ffigure%253E"
+            style="
+              width: 100%;
+              height: 577px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="doc--description--badges" class="doc-description--badges">
+          <span class="badge primary--badge">1</span>
+          <span class="badge secondary--badge">new</span>
+          <span class="badge alternate--badge">new</span>
+          <span class="badge dark--badge">new</span>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge%2520primary--badge%2522%253E1%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520secondary--badge%2522%253Enew%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520alternate--badge%2522%253Enew%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520dark--badge%2522%253Enew%253C%252Fspan%253E"
+            style="
+              width: 100%;
+              height: 260px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+
+        <section
+          id="doc--description--buttons"
+          class="doc--description--buttons"
+        >
+          <button class="button primary--button">primary</button>
+          <button class="button secondary--button">secondary</button>
+          <button class="button icon--text--button">
+            <span>secondary</span> <i class="fa fa-bell"></i>
+          </button>
+
+          <div class="icon--badge--button">
+            <i id="icon--badge--icon" class="fa fa-bell"></i>
+            <span id="icon--badge--button--text">1+</span>
+          </div>
+
+          <button class="floating--button">+</button>
+          <i id="icon--button" class="fa fa-shopping-cart"></i>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520primary--button%2522%253Eprimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520secondary--button%2522%253Esecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520icon--text--button%2522%253E%250A%2509%253Cspan%253Esecondary%253C%252Fspan%253E%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522icon--badge--button%2522%253E%250A%2509%253Ci%2520id%253D%2522icon--badge--icon%2522%2520class%253D%2522fa%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%2520id%253D%2522icon--badge--button--text%2522%253E1%252B%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522floating--button%2522%253E%252B%253C%252Fbutton%253E%250A%253Ci%2520id%253D%2522icon--button%2522%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E"
+            style="
+              width: 100%;
+              height: 428px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="doc--description--cards" class="doc--description--cards">
+          <article class="card">
+            <div class="card--top">
+              <img
+                src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="image of car"
+              />
+              <span class="card--top--text">Lorem, ipsum.</span>
+            </div>
+            <!-- <figure class="card--top"></figure> -->
+            <span class="badge card--badge">new</span>
+            <div class="card--bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                ab.
+              </p>
+              <button class="button primary--button">
+                add to cart <i class="fa fa-bell"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="card">
+            <figure class="card--top">
+              <img
+                src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="image of car"
+              />
+            </figure>
+            <button class="card--dismiss">X</button>
+            <div class="card--bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+                ab.
+              </p>
+            </div>
+          </article>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Carticle%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card--top%2522%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-%2509%2509%25091489824904134-891ab64532f1%253Fixid%253DMXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D500%2526q%253D60%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520car%2522%250A%2509%252F%253E%250A%2509%253Cspan%2520class%253D%2522card--top--text%2522%253ELorem%252C%2520ipsum.%253C%252Fspan%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cspan%2520class%253D%2522badge%2520card--badge%2522%253Enew%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522card--bottom%2522%253E%250A%2509%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Eum%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ab.%250A%2509%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522button%2520primary--button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520add%2520to%2520cart%2520%253Ci%2520class%253D%2522fa%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Farticle%253E%250A%250A%253Carticle%2520class%253D%2522card%2522%253E%250A%2509%253Cfigure%2520class%253D%2522card--top%2522%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1489824904134-891ab64532f1%253Fixid%253DMXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D500%2526q%253D60%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2520of%2520car%2522%250A%2509%252F%253E%250A%2509%253C%252Ffigure%253E%250A%2509%253Cbutton%2520class%253D%2522card--dismiss%2522%253EX%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522card--bottom%2522%253E%250A%2509%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Eum%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ab.%250A%2509%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Farticle%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+
+        <section id="doc--description--images" class="doc--description--images">
+          <figure class="rounded--image">
+            <img
+              src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="nature image"
+            />
+          </figure>
+          <figure class="responsive--image">
+            <img
+              src="https://images.unsplash.com/photo-1494253188410-ff0cdea5499e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="nature image"
+            />
+          </figure>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cfigure%2520class%253D%2522rounded--image%2522%253E%250A%2520%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1494253188410-ff0cdea5499e%253Fixid%253DMXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D500%2526q%253D60%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522nature%2520image%2522%250A%2509%252F%253E%250A%253C%252Ffigure%253E%250A%253Cfigure%2520class%253D%2522responsive--image%2522%253E%250A%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1494253188410-ff0cdea5499e%253Fixid%253DMXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%25253D%2526ixlib%253Drb-1.2.1%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D500%2526q%253D60%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522nature%2520image%2522%250A%2509%252F%253E%250A%253C%252Ffigure%253E"
+  style="width: 100%; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+        <section id="doc--description--inputs" class="doc--description--inputs">
+          <input
+            type="text"
+            id="standard--input"
+            class="input standard--input"
+          />
+
+          <input type="text" id="filled--input" class="input filled--input" />
+
+          <input type="text" id="outline--input" class="input outline--input" />
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520id%253D%2522standard--input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input%2520standard--input%2522%250A%252F%253E%250A%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522filled--input%2522%2520class%253D%2522input%2520filled--input%2522%2520%252F%253E%250A%250A%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522outline--input%2522%2520class%253D%2522input%2520outline--input%2522%2520%252F%253E%250A"
+  style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+
+        <section id="doc--description--lists" class="doc--description--lists">
+          <ul class="standard--list">
+            <li class="standard--list__item1">item one</li>
+            <li class="standard--list__item2">item two</li>
+            <li class="standard--list__item3">item three</li>
+          </ul>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522standard--list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522standard--list__item1%2522%253Eitem%2520one%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522standard--list__item2%2522%253Eitem%2520two%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522standard--list__item3%2522%253Eitem%2520three%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+          <ul class="stacked--list">
+            <li class="stacked--list__item">
+              <div class="stacked--list__item--container">
+                <div class="standard--list--item--header">
+                  <img
+                    class="avatar avatar--small"
+                    src="https://thispersondoesnotexist.com/image"
+                  />
+                  <span class="text-utility small">1d ago</span>
+                </div>
+                <small class="text-utility disable">SDE</small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li class="stacked--list__item">
+              <div class="stacked--list__item--container">
+                <div class="standard--list--item--header">
+                  <img
+                    class="avatar avatar--small"
+                    src="https://thispersondoesnotexist.com/image"
+                  />
+                  <span class="text-utility small">1d ago</span>
+                </div>
+                <small class="text-utility disable">SDE</small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+            <li class="stacked--list__item">
+              <div class="stacked--list__item--container">
+                <div class="standard--list--item--header">
+                  <img
+                    class="avatar avatar--small"
+                    src="https://thispersondoesnotexist.com/image"
+                  />
+                  <span class="text-utility small">1d ago</span>
+                </div>
+                <small class="text-utility disable">SDE</small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </li>
+          </ul>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522stacked--list%2522%253E%250A%2509%253Cli%2520class%253D%2522stacked--list__item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522stacked--list__item--container%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522standard--list--item--header%2522%253E%250A%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509class%253D%2522avatar%2520avatar--small%2522%250A%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2509%2509%2509%252F%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522text-utility%2520small%2522%253E1d%2520ago%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Csmall%2520class%253D%2522text-utility%2520disable%2522%253ESDE%253C%252Fsmall%253E%250A%2509%2509%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522stacked--list__item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522stacked--list__item--container%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522standard--list--item--header%2522%253E%250A%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509class%253D%2522avatar%2520avatar--small%2522%250A%2509%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522text-utility%2520small%2522%253E1d%2520ago%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Csmall%2520class%253D%2522text-utility%2520disable%2522%253ESDE%253C%252Fsmall%253E%250A%2509%2509%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%2520class%253D%2522stacked--list__item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522stacked--list__item--container%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522standard--list--item--header%2522%253E%250A%2509%2509%2509%2509%253Cimg%250A%2509%2509%2509%2509%2509class%253D%2522avatar%2520avatar--small%2522%250A%2509%2509%2509%2509%2509src%253D%2522https%253A%252F%252Fthispersondoesnotexist.com%252Fimage%2522%250A%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522text-utility%2520small%2522%253E1d%2520ago%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Csmall%2520class%253D%2522text-utility%2520disable%2522%253ESDE%253C%252Fsmall%253E%250A%2509%2509%2509%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+  style="width: 100%; height: 968px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+
+        <section id="doc--description--navbar" class="doc--description--navbar">
+          <nav class="sticky--nav">
+            <h3 class="nav--hero">Hero</h3>
+            <ul class="nav--list">
+              <li class="nav--items"><a href="#">home</a></li>
+              <li class="nav--items"><a href="#">profile</a></li>
+              <li class="nav--items"><a href="#">about</a></li>
+            </ul>
+          </nav>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522sticky--nav%2522%253E%250A%2509%253Ch3%2520class%253D%2522nav--hero%2522%253EHero%253C%252Fh3%253E%250A%2509%253Cul%2520class%253D%2522nav--list%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522nav--items%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Ehome%253C%252Fa%253E%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522nav--items%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Eprofile%253C%252Fa%253E%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522nav--items%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Eabout%253C%252Fa%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E%250A"
+  style="width: 100%; height: 354px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+
+        <section id="doc--description--rating" class="doc--description--rating">
+          <ul class="rating">
+            <li>
+              <i class="fa fa-star fa-sm"></i>
+            </li>
+            <li>
+              <i class="fa fa-star fa-sm"></i>
+            </li>
+            <li>
+              <i class="fa fa-star fa-sm"></i>
+            </li>
+            <li>
+              <i class="fa fa-star fa-sm"></i>
+            </li>
+            <li>
+              <i class="fa fa-star fa-sm"></i>
+            </li>
+          </ul>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522rating%2522%253E%250A%2509%253Cli%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fli%253E%250A%2509%253Cli%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-star%2520fa-sm%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E%250A"
+  style="width: 100%; height: 521px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+        <section
+          class="doc--description--utility"
+          id="doc--description--utility"
+        >
+          <p class="text-utility heading">this is a heading text</p>
+          <p class="text-utility small">this is small text</p>
+          <p class="text-utility disable">this is disabled text</p>
+          <p class="text-utility center">this is centered text</p>
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-utility%2520heading%2522%253Ethis%2520is%2520a%2520heading%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-utility%2520small%2522%253Ethis%2520is%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-utility%2520disable%2522%253Ethis%2520is%2520disabled%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-utility%2520center%2522%253Ethis%2520is%2520centered%2520text%253C%252Fp%253E"
+  style="width: 100%; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+        </section>
+      </article>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
